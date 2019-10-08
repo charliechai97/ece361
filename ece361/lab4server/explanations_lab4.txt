@@ -1,0 +1,4 @@
+#Charlie Chai, 1002386161
+#Julian Gonsalves,
+
+We only wrote the broadcast function and that was done by parsing the data from the client, seeing if it matched broadcast, and sending the message back to all the clients in the master list.

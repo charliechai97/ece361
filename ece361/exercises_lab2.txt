@@ -1,0 +1,48 @@
+﻿#Charlie Chai, 1002386161
+#Julian Gonsalves,1002649011
+
+1. Ping uses ICMP to collect information by sending an echo-request packet to the IP host and waiting for an echo	reply packet, using this to determine packet loss and the round-trip time.
+
+2. Traceroute sends a UDP packet to the specified host and all the routers along the path to the specified host send back an ICMP packet to show the route.
+
+3. www.utoronto.ca: min = 0.996 ms, avg = 1.096 ms, max = 1.634 ms
+	www.163.com: min = 30.306 ms, avg = 30.691 ms, max = 31.103 ms
+	Difference in round trip time due to the difference in locations.
+
+4. 10000*10^3 / (3*10^8) * 2 = 66.666 ms
+	This time found using PING is faster because it uses a cache which is located somewhere closer than china
+
+5. 5345 * 10^3 / (3*10^8) * 2 = 35.632 ms
+
+6. www.bbc.co.uk: min = 78.467 ms, avg = 79.435 ms, max = 84.272 ms
+	This is slower due to traffic over the Atlantic ocean
+
+7.	16 bytes : min = 0.799ms, avg = 1.075, max = 1.850 ms (We use 16 bytes because 10 bytes is too small.
+	There eeds to be a minimum of 16 bytes for the time to be shown)
+
+	10000 bytes: min = 1.782 ms, avg = 2.246 ms, max = 3.054 ms
+
+8. 56 information bytes + 8 ICMP header bytes = 64 ICMP data bytes
+
+9. DNS server IP address – 128.100.8.24
+	Host server IP address – 64.64.9.47
+
+10. DNS – 1 hop, Web – 14 hops 
+	DNS server is Local Name server at UofT so it only takes 1 hop while actual server is farther away
+ 
+11. 26
+
+12. tcp 0  0 ug176.eecg.toront:46156 cnn.com.102.122.2:https ESTABLISHED
+	There were many more connections (likely from ads) however main one from ug176.eecg.toront:46156 to cnn.com.102.122.2
+
+13. a) 247
+	b) 246
+	c) 12
+
+14. ip: 128.100.13.178
+	ethernet: 98:90:96:ca:7e:71
+
+15. ug178.eecg.toronto.edu
+
+16. 1)Default outgoing gateway for the UofT server. This is used for traffic outside of UofT
+	2) Used for traffic within the UofT network (LAN)

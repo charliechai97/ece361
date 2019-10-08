@@ -1,0 +1,14 @@
+#Julian Gonsalves, 1002649011
+#Charlie Chai, 1002386161
+
+Sim1: 
+	Transmission Rate: 8 / (16000/2 x 10^-6) = 1000 bits/s
+	Propagation Delay: 1000000/2 microseconds = 500 000 microseconds
+
+Sim2:
+	Transmission Rate: 8 / (16000/2 x 10^-6) = 1000 bits/s
+	Propagation Delay: 4000000/2 microseconds = 2 000 000 microseconds
+
+Sim3:
+	Transmission Rate: 8 / (160000/2 x 10^-6) = 100 bits/s
+	Propagation Delay: 200000/2 microseconds = 100 000 microseconds

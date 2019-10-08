@@ -1,0 +1,7 @@
+#Charlie Chai, 1002386161
+#Julian Gonsalves, 1002649011
+
+1. No, the pings are not successful
+2. Flow table is empty
+3. Flow table contains the flows we installed connecting host 1 and 2
+4. The pings are successful since we have installed a flow in the controller between host 1 and host 3
